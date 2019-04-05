@@ -1,7 +1,7 @@
 ## Play Scala invoke Java Controller with Compile-Time DI
 
-This simple program illustrate the issue with invoking Java controller from a Scala Play application
-this is configured through compile-time dependency injection.
+This simple program illustrates the issue with invoking Java controller from a Scala Play application
+that is configured through compile-time dependency injection.
 
 ### Guice DI
 
@@ -18,7 +18,7 @@ They can be access with:
     
     localhost:9000/javaPing?msg=something
     
-This should work and response with a simple _pong_ message.
+These should work and response with a simple _pong_ message.
 
 
 ### Compile-time DI
