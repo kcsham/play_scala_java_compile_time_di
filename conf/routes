@@ -6,7 +6,7 @@
 
 GET        /scalaPing           controllers.ScalaController.ping(msg: String)
 
-GET        /javaPing            controllers.JavaController.ping(request: Request)
+GET        /javaPing            controllers.JavaController.ping()
 
 
 # Map static resources from the /public folder to the /assets URL path

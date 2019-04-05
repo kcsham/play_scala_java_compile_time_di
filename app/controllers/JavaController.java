@@ -7,8 +7,8 @@ import play.mvc.Result;
 public class JavaController extends Controller {
 
 
-    public Result ping(Http.Request request) {
-        String msg = request.getQueryString("msg");
+    public Result ping() {
+        String msg = ctx().request().getQueryString("msg");
         return ok("Java Pong " + msg);
 
     }
